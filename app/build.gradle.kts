@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.firebasep)
 }
 
 android {
@@ -9,6 +10,8 @@ android {
             minorApiLevel = 1
         }
     }
+
+
 
     defaultConfig {
         applicationId = "com.example.appsira"
@@ -51,4 +54,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.lottie)
+    implementation(libs.firebase.bom)
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+
 }
