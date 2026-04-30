@@ -27,8 +27,8 @@ androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navi
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie"}
 firebase-bom = { group= "com.google.firebase", name = "firebase-bom", version.ref = "firebase"}
-firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore" }
-firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore"}
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
